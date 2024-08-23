@@ -1,3 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
 .introduce{
-    
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #a8e6a1, #2b7a0b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.introduce-container{
+    max-width: 700px;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    flex-direction: column; /* Elemanları alt alta sıralamak için */
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.introduce-btn{
+    width: 350px;
+    height: 50px;
+    font-size: 17px;
+    background-color: #2b7a0b;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.introduce-logo img {
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: column; /* Logo ve yazıyı dikey olarak hizala */
+    align-items: center;
+    margin-bottom: 1rem; /* Yazıya alttan boşluk ekle */
+}
+
+.introduce-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2b7a0b;
 }
