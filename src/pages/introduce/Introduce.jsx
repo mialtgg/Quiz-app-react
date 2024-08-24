@@ -24,6 +24,7 @@ const Introduce = () => {
        <Dropdown data={difficulty} setDifficultyChange={setDifficultyChange}/>
        <div onClick={startQuiz} className='introduce-btn'>Hadi Başlayalım</div>
         </div>
+        <button className="btn btn-primary">Bootstrap Butonu</button>
     </div>
   )
 }

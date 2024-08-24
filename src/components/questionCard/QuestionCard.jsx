@@ -11,13 +11,14 @@ const QuestionCard = ({ questionData, score, setScore, count, setCount, modal, s
         setCount(count + 1)
         if(count == 9)
         setModal(true)
-        
+        setTimer(30)
     }
     useEffect(() => {
         // Zamanlayıcıyı başlat
         const interval = setInterval(() => {
             if (timer > 0) {
                 setTimer(timer - 1)
+                
             }
             if (timer == 0 && count < 10 ) {
                 setCount(count + 1 )
