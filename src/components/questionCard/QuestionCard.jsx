@@ -1,8 +1,14 @@
 import React, { useEffect, useState } from 'react'
-
-
+import './QuestionCard.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import soundEffectTime from '../../assets/sounds/tick-tock.mp3'; // Ses dosyasının import introSound from '../../assets/sounds/start.mp3';
 const QuestionCard = ({ questionData, score, setScore, count, setCount, modal, setModal}) => {
     const [timer, setTimer] = useState(30)
+    const playSoundTime = () => {
+        const audio = new Audio(soundEffectTime);
+        audio.play();
+    };
+  
     const approvedChoice = (e) =>{
         const checkAnswer = e.currentTarget.value == questionData[count]?.correct_answer
         if (checkAnswer){
@@ -34,9 +40,17 @@ const QuestionCard = ({ questionData, score, setScore, count, setCount, modal, s
         }, 1000)
         return () => clearInterval(interval)
     }, [timer]);
+
+    useEffect(() => {
+        
+        playSoundTime();
+    }, []); 
     return (
         <div className='questionCard'>
-            <div className='questionCard-timer'>{timer}</div>
+           <div className="questionCard-timer">
+           <span className="alarm-icon">&#x23F0;</span>
+            {timer} 
+        </div>
             <div className='questionCard-title'>{count + 1}/10 - {questionData[count]?.question}</div>
             {
                 questionData[count]?.answers ? (
@@ -44,7 +58,11 @@ const QuestionCard = ({ questionData, score, setScore, count, setCount, modal, s
                         <button onClick={approvedChoice} key={i} value={answer}>{answer}</button>
                     ))
                 ) : (
-                    <p>Yükleniyor...</p> // Veriler gelmeden önce gösterilecek bir mesaj
+                    <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
+                    <div className="spinner-border text-succes" role="status">
+                        <span className="visually-hidden">Yükleniyor...</span>
+                    </div>
+                </div>
                 )
             }
         </div>

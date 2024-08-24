@@ -42,13 +42,13 @@ html, body {
 }
 @keyframes moveUpDown {
     0% {
-      transform: translateY(0); /* Start position */
+      transform: translateY(0); 
     }
     50% {
-      transform: translateY(-10px); /* Move up */
+      transform: translateY(-10px); 
     }
     100% {
-      transform: translateY(0); /* Return to start position */
+      transform: translateY(0); 
     }
   }
   
