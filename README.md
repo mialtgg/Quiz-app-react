@@ -1,4 +1,4 @@
-**# Quiz App
+# Quiz App
 
 ## Proje Açıklaması
 
@@ -15,9 +15,9 @@ Bu proje, React kullanılarak geliştirilmiş bir quiz uygulamasıdır. Kullanı
 
 - React
 - JavaScript (ES6+)
-- CSS/SCSS
-- [Optional] React Router (Eğer çok sayfalı bir yapınız varsa)
-- [Optional] Axios (Eğer API üzerinden veri çekiyorsanız)
+- CSS
+- React Router 
+  
 
 ## Kurulum
 
@@ -27,9 +27,16 @@ Proje, Node.js ve npm (veya yarn) gerektirir. Node.js'i [buradan](https://nodejs
 
 ### Adımlar
 
-1. **Projeyi Klonlayın**
+1. **Proje yi incelemek için deploy linki**
+https://66caeae5d1cee3cf28153094--deluxe-fox-2b1050.netlify.app/
 
-   ```bash
-   git clone https://github.com/username/quiz-app.git
+## Geliştirme Süreci Raporu
 
-**
+**1. Gün:** Videonun baş kısmını izleyip React kurulumu gerçekleştirdim. Sayfaların işlevselliklerini ve CSS kısımlarını hallettim.
+
+**2. Gün:** Videonun devamındaki komponentlerin kodlamasını tamamladım. Commit işlemlerini gerçekleştirdim ve projemi GitHub'a yükledim.
+
+**3. Gün:** Projeyi deploy ettim, React ikon kütüphanelerini entegre ettim ve ses efektleri ekledim.
+
+
+
