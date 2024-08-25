@@ -1,5 +1,5 @@
 # Quiz App
-![Proje Ekran Görüntüsü](assets/enginarquiz.png)
+![Proje Ekran Görüntüsü](assets/enginarquiz.jpg)
 
 ## Proje Açıklaması
 
