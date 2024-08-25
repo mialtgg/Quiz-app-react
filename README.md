@@ -1,4 +1,5 @@
 # Quiz App
+![Proje Ekran Görüntüsü](assets/enginarquiz.png)
 
 ## Proje Açıklaması
 
