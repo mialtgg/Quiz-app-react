@@ -5,7 +5,7 @@ const shuffleArray = (array) => {
 }
 
 export const fetchQuizData = async (difficulty, amount) => {
-  const url = `https://opentdb.com/api.php?amount=${amount}&difficulty=${difficulty}&type=multiple`;
+  const url =`https://opentdb.com/api.php?amount=${amount}&category=18&difficulty=${difficulty}&type=multiple`
   try {
     const response = await fetch(url);
     if (response.status === 429) {
