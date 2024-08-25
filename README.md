@@ -1,6 +1,8 @@
 # Quiz App
-![Proje Ekran Görüntüsü](assets/enginarquiz.jpg)
 
+
+1. **Proje yi incelemek için deploy linki**
+https://66caeae5d1cee3cf28153094--deluxe-fox-2b1050.netlify.app/
 ## Proje Açıklaması
 
 Bu proje, React kullanılarak geliştirilmiş bir quiz uygulamasıdır. Kullanıcılar, çeşitli konular hakkında soruları yanıtlayarak puan kazanabilirler. Uygulama, dinamik soru gösterimleri, kullanıcı sonuçları ve basit bir kullanıcı arayüzü sunar.
@@ -26,10 +28,7 @@ Bu proje, React kullanılarak geliştirilmiş bir quiz uygulamasıdır. Kullanı
 
 Proje, Node.js ve npm (veya yarn) gerektirir. Node.js'i [buradan](https://nodejs.org/) indirip kurabilirsiniz.
 
-### Adımlar
 
-1. **Proje yi incelemek için deploy linki**
-https://66caeae5d1cee3cf28153094--deluxe-fox-2b1050.netlify.app/
 
 ## Geliştirme Süreci Raporu
 
